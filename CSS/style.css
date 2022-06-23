@@ -327,10 +327,17 @@ ul,
 /* review */
 
 section {
-  margin: 50px 97px;
+  margin: 50px auto;
   display: grid;
   justify-content: center;
   align-content: center;
+}
+
+.row2 {
+  -webkit-box-shadow: 1px 10px 45px 0px rgba(189, 189, 189, 1);
+  -moz-box-shadow: 1px 10px 45px 0px rgba(189, 189, 189, 1);
+  box-shadow: 1px 10px 45px 0px rgba(189, 189, 189, 1);
+  border-radius: 15%;
 }
 
 .left,
