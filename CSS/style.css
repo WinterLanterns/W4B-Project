@@ -1,0 +1,641 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  line-height: 2px;
+}
+h2,
+h3 {
+  line-height: 3rem;
+}
+
+hr {
+  border: dotted #6d806c 25px;
+  border-bottom: none;
+  width: 17%;
+  margin: 60px auto;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* navbar */
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: #6d806c;
+}
+
+.nav-menu {
+  width: 100%;
+  margin: 0 0 0 800px;
+  list-style: none;
+}
+
+.nav-list {
+  float: left;
+}
+
+.nav-list .nav-link {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  padding: 20px 15px;
+  width: 100px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.nav-list .nav-link:hover {
+  text-transform: uppercase;
+  background: #758974;
+}
+
+#sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo .logotitle {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  margin-top: 10px;
+  margin: 10px;
+  font-size: 25px;
+  padding-left: 35px;
+  padding-top: 5px;
+}
+
+/* hero page */
+
+audio {
+  opacity: 80%;
+  color: #ccd9bf;
+  width: 150px;
+}
+
+.hero,
+.a-hero,
+.c-hero {
+  width: 100vw;
+  background-size: cover;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.hero {
+  background-image: url(/images/heropagemaybe.png);
+  height: 100vh;
+}
+
+.a-hero {
+  background-image: url(/images/heroimageabout.png);
+  height: 90vh;
+}
+
+.c-hero {
+  background-image: url(/images/roasted-coffee-beans-with-accessories.png);
+  height: 100vh;
+}
+
+.hero .overlay {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 90px;
+}
+
+.a-hero .overlay {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  padding: 0 90px 50px;
+}
+
+.c-hero .overlay {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  left: 365px;
+  top: 260px;
+}
+
+.hero-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  width: 50%;
+  color: white;
+  line-height: 2.5rem;
+}
+
+.hero-heading {
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.hero-text .hero-heading {
+  margin: 0;
+  font-family: Marcellus, sans-serif;
+  font-size: 50px;
+}
+
+.hero-text p {
+  font-weight: 100;
+  line-height: 27px;
+  margin: 0 90px 0 0;
+}
+
+/* menu page */
+
+.bodypage {
+  margin: 80px 50px 80px;
+}
+
+#menu,
+#review,
+#brewster,
+#the-roost,
+#partner,
+#contact,
+#map {
+  font-family: Marcellus, sans-serif;
+  margin: 110px auto 20px;
+  color: #262626;
+  text-align: center;
+  position: relative;
+  line-height: 2.55rem;
+  font-size: 45px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.title-separator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4,
+h6,
+h5 {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+h5 {
+  margin-bottom: 30px;
+}
+
+h6 {
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 400px;
+  color: #333232;
+  font-size: 18px;
+}
+
+h4 {
+  font-family: Marcellus, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #262626;
+}
+
+h4:hover {
+  color: #af9375;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin: 40px 30px;
+  background-color: white;
+}
+
+.drawing {
+  width: 106px;
+  height: 94;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+ul,
+.p-text {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(101, 101, 101);
+  line-height: 25px;
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+.textmenu {
+  font-family: Marcellus, sans-serif;
+  clear: both;
+  position: relative;
+  bottom: 15px;
+  text-transform: uppercase;
+}
+
+.menu-heading,
+.menu-text {
+  text-align: center;
+  color: #839a82;
+  padding: auto 400px;
+}
+
+.menu-heading {
+  font-family: Marcellus, sans-serif;
+  text-transform: uppercase;
+}
+
+.menu-text {
+  padding: 10px 50px;
+}
+
+/* Gallery */
+
+#gallery,
+#the-roost {
+  width: 100vw;
+  background-size: cover;
+  display: inline-table;
+}
+
+#gallery {
+  background-image: url(/images/background.png);
+  height: 120vh;
+}
+
+.grid-container {
+  margin: 70px;
+  display: grid;
+  gap: 10px 10px;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-img {
+  height: 270px;
+  width: 266px;
+}
+
+.grid-img:hover {
+  opacity: 90%;
+}
+
+/* review */
+
+section {
+  margin: 50px 97px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.left,
+.middle,
+.right {
+  margin: 90px 30px 150px;
+  padding: 0px 30px;
+  width: 350px;
+  height: 400px;
+  border-radius: 25%;
+  background-color: hsl(90, 25%, 80%);
+  text-align: center;
+}
+
+.star-rating {
+  line-height: 2.5rem;
+  color: #839a82;
+  position: relative;
+}
+
+.reviewicons {
+  position: relative;
+  bottom: 50px;
+  border: solid white 20px;
+  border-radius: 50%;
+}
+
+.box-review {
+  position: relative;
+  bottom: 50px;
+}
+
+.reviewicons:hover {
+  width: 200px;
+  height: 200px;
+}
+
+/* footer */
+
+footer {
+  clear: both;
+  position: relative;
+  height: auto;
+  margin-top: auto;
+  background-color: #6d806c;
+  text-align: center;
+  opacity: 90%;
+  display: block;
+}
+
+.footer-content {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  position: relative;
+  padding: 40px 290px 10px;
+  text-align: center;
+}
+
+.footer-heading {
+  font-family: "Poppins" sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 4.5rem;
+  font-size: 30px;
+}
+
+.smicons {
+  padding: 30px;
+  font-size: 25px;
+  letter-spacing: 9px;
+}
+
+.bottom-footer {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #586857;
+  display: flex;
+}
+
+.f-para {
+  text-decoration: none;
+  margin: auto 10px;
+  padding-top: 20px;
+}
+
+.profile {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-footer {
+  float: right;
+  margin-left: auto;
+}
+
+.menu-footer .f-menu {
+  display: flex;
+}
+
+.menu-footer .f-menu .f-list {
+  padding-right: 10px;
+  display: block;
+}
+
+.menu-footer .f-menu .f-list .f-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Button */
+
+button {
+  background-color: Transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 28px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.b-text {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+button:hover,
+.b-text:hover {
+  background-color: #262626;
+  color: white;
+}
+
+/* ABOUT PAGE */
+
+.about-page {
+  margin: 30px 50px 100px;
+  display: table;
+}
+
+.about-profile {
+  margin: 30px 30px;
+}
+
+.about-img {
+  width: 500px;
+  height: auto;
+  float: left;
+  border: 1px solid black;
+}
+
+.about-info {
+  padding: 20px;
+  border: 1px solid #262626;
+}
+
+.about-img,
+.about-info {
+  margin: 20px 40px auto 10px;
+}
+
+.video {
+  float: right;
+  margin: 20px 10px auto 40px;
+  position: relative;
+  right: 50px;
+  top: 30px;
+  border: #262626 1px solid;
+}
+
+.about-heading {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #262626;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.about-para {
+  color: #333232;
+  padding: 45px;
+  text-align: left;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+}
+
+.about-heading,
+.about-para {
+  font-family: Marcellus, sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+#the-roost {
+  background-image: url(/images/woodbackground.png);
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+#the-roost .grid-container .grid-item {
+  border: 1px solid white;
+  margin: auto;
+}
+
+#the-roost .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 60px;
+  grid-gap: 20px;
+}
+
+#the-roost .grid-img {
+  width: auto;
+  opacity: 90%;
+}
+
+#the-roost .grid-img:hover {
+  opacity: 100%;
+  height: 290px;
+  width: auto;
+}
+
+.grid-para {
+  font-family: "Open Sans", sans-serif;
+  margin: 20px auto;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+/* Contact page  */
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 100px;
+}
+
+.contact-box {
+  max-width: 1250px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  margin-bottom: 100px;
+}
+
+.contact-left {
+  height: 100%;
+  background: url("/images/fanartbycafhune.jpeg") no-repeat center;
+  background-size: cover;
+}
+
+.contact-right {
+  padding: 25px 40px;
+}
+
+.contact-heading {
+  font-family: Marcellus, sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.field {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(230, 230, 230, 0.6);
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  outline: none;
+}
+
+.area {
+  min-height: 150px;
+}
+
+.btn {
+  font-family: "Poppins" sans-serif;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 1.1rem;
+  background-color: #839a82;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #586857;
+}
+
+/* map */
+
+.map {
+  margin: 100px 50px;
+  border: 1px solid black;
+}
