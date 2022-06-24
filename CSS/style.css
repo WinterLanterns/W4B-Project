@@ -101,18 +101,18 @@ audio {
 }
 
 .hero {
-  background-image: url(/images/heropagemaybe.png);
+  background-image: url(../images/heropagemaybe.png);
   height: 100vh;
   background-attachment: fixed;
 }
 
 .a-hero {
-  background-image: url(/images/heroimageabout.png);
+  background-image: url(../images/heroimageabout.png);
   height: 90vh;
 }
 
 .c-hero {
-  background-image: url(/images/roasted-coffee-beans-with-accessories.png);
+  background-image: url(../images/roasted-coffee-beans-with-accessories.png);
   height: 100vh;
 }
 
@@ -291,7 +291,7 @@ ul,
 }
 
 #gallery {
-  background-image: url(/images/background.png);
+  background-image: url(../images/background.png);
   height: 120vh;
 }
 
@@ -526,7 +526,7 @@ button:hover,
 }
 
 #the-roost {
-  background-image: url(/images/woodbackground.png);
+  background-image: url(../images/woodbackground.png);
   height: 100vh;
   margin-bottom: 50px;
 }
