@@ -82,11 +82,14 @@ nav {
 }
 
 /* hero page */
-
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
 audio {
   opacity: 80%;
-  color: #ccd9bf;
-  width: 150px;
+  margin-top: 10px;
+  width: 180px;
 }
 
 .hero,
