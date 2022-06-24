@@ -109,7 +109,6 @@ audio {
 .a-hero {
   background-image: url(/images/heroimageabout.png);
   height: 90vh;
-  background-attachment: fixed;
 }
 
 .c-hero {
