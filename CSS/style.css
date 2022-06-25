@@ -474,7 +474,7 @@ button:hover,
 }
 
 .about-img {
-  width: 500px;
+  width: 400px;
   height: auto;
   float: left;
   border: 1px solid black;
@@ -483,7 +483,7 @@ button:hover,
 .about-info {
   padding: 20px;
   border: 1px solid #262626;
-  margin: 50px 100px;
+  margin: auto;
 }
 
 .about-img,
