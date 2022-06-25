@@ -470,7 +470,7 @@ button:hover,
 }
 
 .about-profile {
-  margin: 30px 30px;
+  margin: 30px;
 }
 
 .about-img {
@@ -478,16 +478,19 @@ button:hover,
   height: auto;
   float: left;
   border: 1px solid black;
+  padding: 10px;
 }
 
 .about-info {
   padding: 20px;
   border: 1px solid #262626;
   margin: auto;
+  height: auto;
 }
 
 .about-img,
 .about-info {
+  margin: auto;
 }
 
 .video {
