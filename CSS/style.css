@@ -474,14 +474,16 @@ button:hover,
 }
 
 .about-img {
-  width: 400px;
+  width: 500px;
   height: auto;
   float: left;
   border: 1px solid black;
+  position: relative;
+  top: 30px;
 }
 
 .about-info {
-  padding: 20px;
+  padding: 50px;
   border: 1px solid #262626;
   margin: auto;
   height: auto;
